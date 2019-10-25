@@ -136,7 +136,7 @@ const RenderBody = ({ home, projects, meta }) => (
         <Hero>
             <>
                 {RichText.render(home.hero_title)}
-                {RichText.render(home.subtitle)}
+                {RichText.render(home.content)}
             </>
             
             <a href={home.hero_button_link.url}
@@ -199,7 +199,6 @@ export const query = graphql`
                 edges {
                     node {
                         hero_title
-                        subtitle
                         hero_button_text
                         hero_button_link {
                             ... on PRISMIC__ExternalLink {
