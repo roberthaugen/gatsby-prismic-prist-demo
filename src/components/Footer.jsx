@@ -44,7 +44,7 @@ const FooterAuthor = styled("a")`
 `
 
 const FooterSpooch = styled("img")`
-    max-width: 33px;
+    max-width: 80px;
     margin-top: 0.25em;
 `
 
